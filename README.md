@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# The Minecraft Poop Mod Source Code
 
 ## Setup
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+idk watch a [youtube](https://www.youtube.com/) or smth
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+MIT Licence; do wathever you want xdddd just remember to say i did it lol
