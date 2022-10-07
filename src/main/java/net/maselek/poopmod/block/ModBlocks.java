@@ -17,6 +17,8 @@ public class ModBlocks {
 
     public static final Block POOP_BLOCK = registerBlock("poop_block",
             new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).slipperiness(0.8f)), PoopGroup.POOPMOD);
+    public static final Block REINFORCED_POOP_BLOCK = registerBlock("reinforced_poop_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), PoopGroup.POOPMOD);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
