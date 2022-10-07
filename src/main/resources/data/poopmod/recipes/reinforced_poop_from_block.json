@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "poopmod:reinforced_poop_block"
+    }
+  ],
+  "result": {
+    "item": "poopmod:reinforced_poop",
+    "count": 9
+  }
+}

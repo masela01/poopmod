@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "poopmod:poop_block"
+    }
+  ],
+  "result": {
+    "item": "poopmod:poop_ingot",
+    "count": 9
+  }
+}

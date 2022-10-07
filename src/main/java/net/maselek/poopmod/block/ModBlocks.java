@@ -15,20 +15,21 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block POOP_BLOCK = registerBlock("poop_block",
+    public static final Block POOP_BLOCK = registerBlock("poop_block.json",
             new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(1f).slipperiness(0.8f)), PoopGroup.POOPMOD);
     public static final Block REINFORCED_POOP_BLOCK = registerBlock("reinforced_poop_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), PoopGroup.POOPMOD);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool().luminance(15)), PoopGroup.POOPMOD);
+    public static final Block POOP_ORE = registerBlock("poop_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(5f).requiresTool()), PoopGroup.POOPMOD);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
-
+        registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(PoopMod.MODID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
-
-        return Registry.register(Registry.ITEM, new Identifier(PoopMod.MODID),
+        return Registry.register(Registry.ITEM, new Identifier(PoopMod.MODID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 

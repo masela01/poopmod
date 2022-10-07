@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 240,
+  "experience": 0.9,
+  "group": "reinforced_poop_ingot",
+  "ingredient": {
+    "item": "poopmod:poop_ingot"
+  },
+  "result": "poopmod:reinforced_poop_ingot"
+}
