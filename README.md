@@ -2,7 +2,7 @@
 
 ## Setup
 
-idk watch a [youtube](https://www.youtube.com/) or smth
+idk watch a [youtube](https://www.youtube.com/) tutorial or smth
 
 ## License
 
