@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     public static final Item POOP = registerItem("poop",
-            new Item(new FabricItemSettings().group(PoopGroup.POOPMOD)));
+            new Item(new FabricItemSettings().group(PoopGroup.POOPMOD).food(PoopFoodComponent.POOP)));
     public static final Item POOP_INGOT = registerItem("poop_ingot",
             new Item(new FabricItemSettings().group(PoopGroup.POOPMOD)));
     public static final Item REINFORCED_POOP_INGOT = registerItem("reinforced_poop_ingot",
