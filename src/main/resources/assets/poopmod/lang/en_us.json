@@ -7,5 +7,6 @@
   "block.poopmod.reinforced_poop_block": "Reinforced Poop Block",
   "block.poopmod.poop_ore": "Poop Ore",
   "block.poopmod.deepslate_poop_ore": "Deepslate Poop Ore",
-  "item.poopmod.poop_ball": "Poop Ball"
+  "item.poopmod.poop_ball": "Poop Ball",
+  "item.poopmod.reinforced_poop_ball": "Reinforced Poop Ball"
 }
