@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 4.0,
+  "group": "reinforced_poop_ball",
+  "ingredient": {
+    "item": "poopmod:poop_ball"
+  },
+  "result": "poopmod:reinforced_poop_ball"
+}
