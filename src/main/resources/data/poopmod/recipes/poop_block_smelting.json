@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "cookingtime": 300,
   "experience": 2.0,
-  "group": "poop_ingot",
+  "group": "reinforced_poop_block",
   "ingredient": {
     "item": "poopmod:poop_block"
   },
