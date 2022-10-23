@@ -1,6 +1,5 @@
 package net.maselek.poopmod.item.custom;
 
-import net.maselek.poopmod.entity.PoopBallEntity;
 import net.maselek.poopmod.entity.ReinforcedPoopBallEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

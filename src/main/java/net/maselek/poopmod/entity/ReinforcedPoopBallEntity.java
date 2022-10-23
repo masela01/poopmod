@@ -3,6 +3,8 @@ package net.maselek.poopmod.entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.projectile.thrown.EggEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.item.Item;
@@ -39,7 +41,7 @@ public class ReinforcedPoopBallEntity extends ThrownItemEntity {
 
     protected void onEntityHit(EntityHitResult entityHitResult) {
         super.onEntityHit(entityHitResult);
-        entityHitResult.getEntity().damage(DamageSource.thrownProjectile(this, this.getOwner()), 6.0F);
+        entityHitResult.getEntity().damage(DamageSource.thrownProjectile(this, this.getOwner()), 6.0f);
     }
 
     protected void onCollision(HitResult hitResult) {
