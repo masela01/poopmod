@@ -1,0 +1,12 @@
+{
+  "item.poopmod.poop": "Kupa",
+  "item.poopmod.poop_ingot": "Sztabka kupy",
+  "item.poopmod.reinforced_poop_ingot": "Utwardzona sztabka kupy",
+  "itemGroup.poopmod.poop": "Mod kupy",
+  "block.poopmod.poop_block": "Blok kupy",
+  "block.poopmod.reinforced_poop_block": "Utwardzony blok kupy",
+  "block.poopmod.poop_ore": "Ruda kupy",
+  "block.poopmod.deepslate_poop_ore": "Łupkowa ruda kupy",
+  "item.poopmod.poop_ball": "Kulka kupy",
+  "item.poopmod.reinforced_poop_ball": "Utwardzona kulka kupy"
+}
